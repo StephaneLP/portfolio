@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Feuilles de style globales ------------------------------------->
+    <link rel="stylesheet" type="text/css" href="/assets/css/common/global.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/common/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/common/header.css">
+    <!-- Feuille de style spécifique ------------------------------------->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" href="/assets/img/logos/favicon.png" type="image/x-icon">
+    <title>ÉcoWorking</title>
+</head>
+<body>
+<header>
+    <!---------------------------------------------------------------------------->
+    <!-- BANDEAU -->
+    <!---------------------------------------------------------------------------->
+    <div class="bandeau_left"></div>
+    <div class="bandeau_center container">
+        <!-- LOGO -->
+        <a class="bandeau_logo" href="/">
+            <img src="/assets/img/logos/logo.png" alt="logo">
+            <div class="bandeau_logo-separator"></div>
+            <div class="bandeau_logo-title">
+                <span>É</span>co<span>W</span>orking
+            </div>
+        </a>
+        <!-- MENU -->
+        <nav>
+            <ul class="bandeau_menu">
+                <!-- MENU DÉROULANT ESPACES -->
+                <li>
+                    <span class="bandeau_menu-libelle">Espaces d'écoworking</span>
+                    <div class="bandeau_menu-dropdown">
+                        <div class="container">
+                            <div>
+                                <span>Laval</span>
+                                <ul class="bandeau_submenu">
+                                    <li><a href="/pages/ecoworkings/green-place.html">Green Place</a></li>
+                                    <li><a href="#0">Assolidaire</a></li>
+                                    <li><a href="#0">Le Comptoir du Maine</a></li>
+                                </ul>                                     
+                            </div>
+                            <div>
+                                <span>Château-Gontier</span>
+                                <ul class="bandeau_submenu">
+                                    <li><a href="#0">eCafé</a></li>
+                                    <li><a href="#0">La Harelle</a></li>
+                                </ul>                                     
+                            </div>
+                            <div>
+                                <span>Mayenne</span>
+                                <ul class="bandeau_submenu">
+                                    <li><a href="#0">La Bulle Verte</a></li>
+                                    <li><a href="#0">La Mayennaise</a></li>
+                                </ul>                                     
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- BOUTON SE SONNECTER -->
+                <li>
+                    <a class="button" href="/pages/account/connect.html">Se connecter</a>
+                </li>
+            </ul>
+        </nav>  
+    </div>
+</header>
+<main>
+    <!---------------------------------------------------------------------------->
+    <!-- CARROUSEL -->
+    <!---------------------------------------------------------------------------->
+    <section class="carousel">
+        <button class="carousel_btn carousel_btnPrev">
+            <span><</span>
+        </button>
+        <div class="carousel_center">
+            <div class="carousel_infos">
+                <div>
+                    <p class="carousel_infos-title"></p>
+                    <p class="carousel_infos-subtitle"></p>                        
+                </div>
+            </div>                
+            <div class="carousel_nav">
+            </div>
+        </div>
+        <button class="carousel_btn carousel_btnNext">
+            <span>></span>
+        </button>
+    </section>
+    <!---------------------------------------------------------------------------->
+    <!-- PRESENTATION -->
+    <!---------------------------------------------------------------------------->
+    <section class="presentation container">
+        <h1>ÉcoWorking en Mayenne</h1>
+        <p>
+            Bienvenue sur le site dédié aux espaces de coworking situés dans le département de la Mayenne et respectueux de l'environnement
+            (fournisseurs d'énergie verte, matériaux recyclables, data-centers français...).
+        </p>
+        <div class="presentation_cities">
+            <!-- VILLE 1 -->
+            <div>
+                <a class="presentation_city" href="#0">
+                    <img src="/assets/img/index/laval.jpg" alt="Laval">
+                </a>
+                <h3>Laval</h3>
+            </div>
+            <!-- VILLE 2 -->
+            <div>
+                <a class="presentation_city" href="#0">
+                    <img src="/assets/img/index/gontier.jpg" alt="Chateau Gontier">
+                </a>
+                <h3>Château-Gontier</h3>
+            </div>
+            <!-- VILLE 3 -->
+            <div>
+                <a class="presentation_city" href="#0">
+                    <img src="/assets/img/index/mayenne.jpg" alt="Mayenne">
+                </a>
+                <h3>Mayenne</h3>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------------------------------------->
+    <!-- SÉLECTION DES ÉCOWORKERS -->
+    <!---------------------------------------------------------------------------->
+    <section class="selection">
+        <h2>La sélection des écoworkers</h2>
+        <div class="selection_grid container">
+            <!-- ECOWORKING 1 -->
+            <div class="selection_place">
+                <div class="selection_place-header">
+                    <span class="selection_place-name">Green Place</span>
+                    <span class="selection_place-city">Laval</span>
+                </div>
+                <div class="selection_place-containt">
+                    <img src="/assets/img/index/place1.jpg" alt="Green Place">
+                    <div class="selection_place-note">
+                        <div class="note-active"></div>
+                        <div class="note-active"></div>
+                        <div class="note-active"></div>
+                        <div class="note-active"></div>
+                        <div class="note-active"></div>
+                    </div>
+                    <div class="selection_place-comment">
+                        <span>«</span>
+                        <span class="selection_place-comment-text">
+                            Très joli lieu de coworking : bureaux spacieux, jardin,
+                            cuisine équipée avec bureaux nomades, super ambiance de travail !
+                        </span>
+                        <span>»</span>
+                    </div>
+                    <div class="selection_place-overlay">
+                        <a class="button" href="/pages/ecoworkings/green-place.html">Ouvrir la fiche</a>
+                    </div>  
+                </div>
+            </div>
+            <!-- ECOWORKING 2 -->
+            <div class="selection_place">
+                <div class="selection_place-header">
+                    <span class="selection_place-name">eCafé</span>
+                    <span class="selection_place-city">Château-Gontier</span>
+                </div>
+                <div class="selection_place-containt">
+                    <img src="/assets/img/index/place2.jpg" alt="Alsace eCafé">
+                    <div class="selection_place-note">
+                        <div class="note-active"></div>
+                        <div class="note-active"></div>
+                        <div class="note-active"></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="selection_place-comment">
+                        <span>«</span>
+                        <span class="selection_place-comment-text">
+                            Un bel espace de coworking, chaleureux, moderne et non loin du centre de 
+                            Mulhouse. Aucun doute, tout est fait pour que les co-workers s'y sentent 
+                            comme chez eux ! Je recommande sans hésitation.
+                        </span>
+                        <span>»</span>                                
+                    </div>
+                    <div class="selection_place-overlay">
+                        <a class="button" href="#0">Ouvrir la fiche</a>
+                    </div>
+                </div>              
+            </div>
+            <!-- ECOWORKING 3 -->
+            <div class="selection_place">
+                <div class="selection_place-header">
+                    <span class="selection_place-name">La Bulle Verte</span>
+                    <span class="selection_place-city">Mayenne</span>
+                </div>
+                <div class="selection_place-containt">
+                    <img src="/assets/img/index/place3.jpg" alt="La Bulle Verte">
+                    <div class="selection_place-note">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="selection_place-comment">
+                        <span></span>
+                        <span class="selection_place-comment-text">
+                            Nouveau...
+                            <!-- Très joli lieu de coworking : bureaux spacieux, jardin,
+                            cuisine équipée avec bureaux nomades, super ambiance de travail ! -->
+                        </span>
+                        <span></span>                                
+                    </div>
+                    <div class="selection_place-overlay">
+                        <a class="button" href="#0">Ouvrir la fiche</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+</main>
+<footer>
+    <!---------------------------------------------------------------------------->
+    <!-- BANDEAU PIED DE PAGE -->
+    <!---------------------------------------------------------------------------->
+    <div class="footer_banner container">
+        <img src="/assets/img/logos/logo.png" alt="logo">
+        <span>© Stéphane Le Pajolec - 2024</span>
+    </div>
+</footer>
+</body>
+<script src="/js/carousel/carousel.js"></script>
+</html>

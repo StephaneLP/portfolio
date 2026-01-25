@@ -1,0 +1,53 @@
+/*************************************************/
+/* NORMALISATION
+/*************************************************/
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+}
+
+a {
+    color: var(--color-font-dark);
+    text-decoration: none;
+    outline: none;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: var(--font-family-title);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--color-font-title-primary-bis);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: var(--color-font-title-secondary);
+}
+
+h3 {
+    font-size: 2rem;
+    color: var(--color-font-title-secondary);
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--color-font-title-primary);
+}
+
+h5 {
+    font-size: 1.1rem;
+    color: var(--color-font-title-primary);
+}
+
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
