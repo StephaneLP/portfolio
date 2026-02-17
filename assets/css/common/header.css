@@ -2,6 +2,192 @@
 /* BANDEAU HEADER
 /*************************************************/
 
+.bandeau {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-font-bright);
+    
+}
+
+/* LOGO ******************************************/
+
+.bandeau_logo {
+    /* display: flex;
+    align-items: center; */
+    font-size: 1.8rem;
+    font-family: var(--font-family-logo);
+    color: var(--color-font-bright);
+
+    img {
+        height: 2.5rem;
+        margin-right: 0.8rem;
+        /* border: 2px solid white;
+        background-color: var(--color-bg-logo);
+        border-radius: 8px; */
+    }
+
+    span {
+        color: var(--color-font-logo);
+    }
+}
+
+/* NAVIGATION  & BACK BUTTON *********************/
+
+.bandeau_nav {
+    display: flex;
+
+    .bandeau_nav-back {
+        display: none;
+        justify-content: space-between;
+        padding: 1rem;
+        height: 4.5rem;
+
+        img {
+            height: 100%;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            font-size: 1.8rem;
+            font-family: var(--font-family-logo);
+            color: var(--color-font-bright);
+
+            img {
+                height: 2.5rem;
+                margin-right: 0.8rem;
+                border: 2px solid white;
+                background-color: var(--color-bg-logo);
+                border-radius: 8px;
+            }
+
+            span {
+                color: var(--color-font-logo);
+            }
+        }
+    }
+
+    .bandeau_nav-menu {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+
+        >li {
+            display: flex;
+            align-items: center;
+
+            &:not(:last-child)::after {
+                content: "";
+                display: inline-block;
+                width: 6px;
+                height: 6px;
+                background-color: var(--color-font-bright);
+                border-radius: 50%;
+                margin: 0 20px;
+            }
+
+            a {
+                font-size: 1.2rem;
+                color: var(--color-font-bright);
+                transition: all 0.3s;
+
+                &:hover {
+                    color: var(--color-font-menu-hover);
+                }
+
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 0;
+                    height: 2px;
+                    margin: 0 auto;
+                    background-color: var(--color-font-menu-hover);
+                    transition: 0.3s ease-in-out;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+            gap: 1rem;
+            padding-top: 2rem;
+    
+            >li {
+                padding-top: 1rem;
+                
+                &:not(:last-child)::after {
+                    display: none;
+                }
+
+                >a {
+                    font-size: 1.8rem;
+
+                    &::after {
+                        display: none;
+                    }                    
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+        background-color: var(--color-bg-primary-darker);
+
+        .bandeau_nav-back {
+            display: flex;
+        }
+
+        .bandeau_nav-menu {
+            border-top: solid 2px var(--color-bg-primary);
+        }
+    }
+}
+
+/* BURGER BUTTON *********************************/
+
+.bandeau_burger {
+    display: none;
+    height: 2.5rem;
+
+    img {
+        height: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .bandeau_left {
     background-color: var(--color-bg-bandeau-primary);
 }
@@ -10,6 +196,14 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+
+
+
+
 
 /* BANDEAU : LOGO & TITRE */
 

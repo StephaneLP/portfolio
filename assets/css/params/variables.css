@@ -6,10 +6,10 @@
 
 :root {
     /* BACKGROUND COLOR */
-    --color-bg-light-primary: #ffffff;
+    --color-bg-light-primary: #fdfdfd;
     --color-bg-light-secondary: #edeef1;
     --color-bg-dark-primary: #4a5868;
-    --color-bg-dark-secondary: #3e4b5a;
+    --color-bg-dark-secondary: #2b3036;
     --color-bg-dark-tertiary: #425046;
     --color-bg-button: #4e865e;
     --color-bg-separator: #647383;
