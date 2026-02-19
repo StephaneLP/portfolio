@@ -18,15 +18,23 @@ header {
     top: 0;
     z-index: 99;
     background-color: var(--color-bg-bandeau-primary);
-    box-shadow: 0 2px 10px var(--color-shadow-primary);
+    /* box-shadow: 0 2px 10px var(--color-shadow-primary); */
+    border-bottom: solid 1px var(--color-bg-separator);
+    font-family: var(--font-family-base);
 }
 
 main {
-    /* background-color: var(--color-bg-light-primary); */
-    background-color: #597CA4;
+    background-color: var(--color-bg-dark-primary);
 }
 
+/*************************************************/
+/* COMMON
+/*************************************************/
 
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
 
 
 
@@ -92,9 +100,3 @@ footer {
 
 
 
-
-
-.container {
-    width: 90vw;
-    margin: 0 auto;
-}

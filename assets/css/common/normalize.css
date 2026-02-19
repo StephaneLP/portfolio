@@ -8,7 +8,7 @@
 }
 
 a {
-    color: var(--color-font-dark);
+    color: var(--color-font-link);
     text-decoration: none;
     outline: none;
 }
