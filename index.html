@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Feuilles de style globales ------------------------------------->
-    <link rel="stylesheet" type="text/css" href="/assets/css/common/global.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/common/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/common/header.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/common/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/layout/header.css">
     <!-- Feuille de style spécifique ------------------------------------->
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="icon" href="/assets/img/logos/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/assets/img/favicon.png" type="image/x-icon">
     <title>Développeur FullStack</title>
 </head>
 <body>
@@ -18,13 +17,15 @@
     <!-- BANDEAU -->
     <!---------------------------------------------------------------------------->
     <section class="bandeau container">
-        <div class="bandeau_logo">
+        <div class="bandeau_title">
             <!-- <img src="/assets/img/codage.png" alt="logo"> -->
             &lt;<span class="balise">developpeur</span> <span class="class">class</span>=<span class="value">'full_stack'</span> /&gt;
         </div>
         <nav class="bandeau_nav">
-            <div class="bandeau_nav-back">
-                <img src="/assets/img/codage.png" alt="logo">
+            <div class="bandeau_nav-back container">
+                <div class="bandeau_nav-back-logo">
+                    <img src="/assets/img/code.png" alt="logo">
+                </div>
                 <button class="bandeau_nav-back-button">
                     <img src="/assets/img/exit.png">
                 </button>
@@ -41,49 +42,24 @@
         </button> 
     </section>
 </header>
-
-
-
-
-
-
-
-
-
-
-
 <main>
     <!---------------------------------------------------------------------------->
     <!-- PRESENTATION -->
     <!---------------------------------------------------------------------------->
     <section class="presentation container">
-        <h1>ÉcoWorking en Mayenne</h1>
-        <p>
-            Bienvenue sur le site dédié aux espaces de coworking situés dans le département de la Mayenne et respectueux de l'environnement
-            (fournisseurs d'énergie verte, matériaux recyclables, data-centers français...).
-        </p>
-        <div class="presentation_cities">
-            <!-- VILLE 1 -->
-            <div>
-                <a class="presentation_city" href="#0">
-                    <img src="/assets/img/index/laval.jpg" alt="Laval">
-                </a>
-                <h3>Laval</h3>
+        <div class="presentation_description">
+            <h1>Stéphane Le Pajolec</h1>
+            <p>
+                Passionné d’informatique depuis l’adolescence, j’ai découvert les joies de la programmation au lycée (et ses heures de codage en BASIC, le journal Hebdogiciel sous le bras), à l’université avec Turbo Pascal pour l’apprentissage de l’algorithmique, puis au CNAM Paris avec le langage ADA, très formateur pour développer une grande rigueur dans l’écriture des fonctions et la gestion des données.
+            </p>
+            <div class="presentation_description-contact">
+                <a href="#"><img src="/assets/img/linkedin.png" alt="logo"></a>
+                <a href="#"><img src="/assets/img/github.png" alt="logo"></a>
+                <a href="#"><img src="/assets/img/email.png" alt="logo"></a>
             </div>
-            <!-- VILLE 2 -->
-            <div>
-                <a class="presentation_city" href="#0">
-                    <img src="/assets/img/index/gontier.jpg" alt="Chateau Gontier">
-                </a>
-                <h3>Château-Gontier</h3>
-            </div>
-            <!-- VILLE 3 -->
-            <div>
-                <a class="presentation_city" href="#0">
-                    <img src="/assets/img/index/mayenne.jpg" alt="Mayenne">
-                </a>
-                <h3>Mayenne</h3>
-            </div>
+        </div>
+        <div>
+            <div class="presentation_image"></div>
         </div>
     </section>
 </main>
@@ -92,10 +68,10 @@
     <!-- BANDEAU PIED DE PAGE -->
     <!---------------------------------------------------------------------------->
     <div class="footer_banner container">
-        <img src="/assets/img/logos/logo.png" alt="logo">
+        <!-- <img src="/assets/img/logos/logo.png" alt="logo"> -->
         <span>© Stéphane Le Pajolec - 2024</span>
     </div>
 </footer>
 </body>
-<script src="index.js"></script>
+<script src="./js/script.js"></script>
 </html>

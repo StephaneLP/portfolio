@@ -1,4 +1,4 @@
-const breakWidth = 768
+const breakWidth = 1024
 const classNav = ".bandeau_nav"
 const classBurgerButton = ".bandeau_burger"
 const classBackButton = ".bandeau_nav-back-button"

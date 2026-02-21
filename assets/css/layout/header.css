@@ -6,17 +6,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0;
+    min-height: 5rem;
     font-family: var(--font-family-code);
 }
 
 /* LOGO ******************************************/
 
-.bandeau_logo {
+.bandeau_title {
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
-    font-family: var(--font-family-code);
+    flex-wrap: nowrap;
+    font-size: 1.3rem;
 
     .balise {
         color: var(--color-font-balise);
@@ -45,12 +45,17 @@
     .bandeau_nav-back {
         display: none;
         justify-content: space-between;
-        padding: 1rem;
-        height: 4.5rem;
+        align-items: center;
+        min-height: 5rem;
 
-        img {
-            height: 100%;
+        .bandeau_nav-back-button, .bandeau_nav-back-logo {
+            height: 2.5rem;
+            
+            img {
+                height: 100%;
+            }
         }
+
     }
 
     .bandeau_nav-menu {
@@ -62,22 +67,8 @@
             display: flex;
             align-items: center;
 
-            /* &:not(:last-child) {
-                margin-right: 10px;
-            } */
-
-            /* &:not(:last-child)::after {
-                content: "";
-                display: inline-block;
-                width: 3px;
-                height: 3px;
-                background-color: var(--color-font-light);
-                border-radius: 50%;
-                margin: 0 20px;
-            } */
-
             a {
-                font-size: 1.2rem;
+                font-size: 1.3rem;
                 color: var(--color-font-light);
                 transition: all 0.5s;
 
@@ -97,7 +88,7 @@
             }
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1050px) {
             flex-direction: column;
             align-items: center;
             flex-grow: 1;
@@ -118,7 +109,7 @@
         }
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1050px) {
         position: absolute;
         top: 0;
         left: 0;
@@ -148,7 +139,7 @@
         height: 100%;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1050px) {
         display: block;
     }   
 }

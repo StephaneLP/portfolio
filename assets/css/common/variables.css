@@ -2,8 +2,6 @@
 /* VARIABLES
 /*************************************************/
 
-/* COULEURS DE BASE : #303841 #47555e #7aa5d2 #eeeeee */
-
 :root {
     /* BACKGROUND COLOR */
     --color-bg-dark-primary: #151B23;
@@ -12,24 +10,25 @@
 
     /* FONT COLOR */
     --color-font-light: #F0F6FC;
-    --color-font-medium: #a2b7cf;    
+    --color-font-title-primary: #acbbc9;
+    /* --color-font-medium: #a2b7cf;     */
     --color-font-link: #abc1da; 
     --color-font-balise: #86e28e;
     --color-font-class: #6bb6f8;
     --color-font-value: #9bcffa;
 
     /* BANDEAU & MENU */
-    --color-bg-bandeau-primary: var(--color-bg-dark-secondary);
+    --color-bg-bandeau: var(--color-bg-dark-secondary);
 
     /* LIENS, HOVER, FOCUS... */
-    --color-hover-primary: #577AA0;
+    /* --color-hover-primary: #577AA0; */
 
     /* SHADOW COLOR */
-    /* --color-shadow-primary: #577AA0;
-    --color-shadow-secondary: #96a1ac; */
+    --color-shadow-primary: #505863;
+    /* --color-shadow-secondary: #96a1ac; */
     
     /* FONT FAMILY */
-    --font-family-base: 'Roboto-Regular', Verdana, sans-serif;
+    --font-family-base: 'Poppins-Regular', Verdana, sans-serif;
     --font-family-title: cursive, Verdana, sans-serif;
     --font-family-code: consolas, Verdana, sans-serif;
 
@@ -37,7 +36,17 @@
 
 
 
-    --color-bg-light-primary: #fdfdfd;
+
+
+
+
+
+    
+
+
+
+
+    /* --color-bg-light-primary: #fdfdfd;
     --color-bg-light-secondary: #edeef1;
 
     --color-bg-dark-tertiary: #425046;
@@ -45,16 +54,12 @@
     
     --color-bg-note: #FDD663;
 
-
-
     --color-font-dark: #38414d;
     --color-font-title-primary: #56606b;
     --color-font-title-primary-bis: #4e8f60;
     --color-font-title-secondary: #748292;
     --color-font-title-tertiary: #f5cb7e;
     --color-font-link-primary: #b37d19;
-
-    /* LIENS, HOVER, FOCUS... */
 
     --color-hover-secondary: #f0ba57;
     --color-hover-arrows: #a0a0a0;
@@ -71,10 +76,10 @@
     --color-font-submenu: #bdc8d4;
     --color-font-submenu-title: #bdc8d4;
     
-
     --font-family-etoile: 'jua', Verdana, sans-serif;
 
-    /* TRANSITIONS */
     --transition-primary: 0.3s ease-in-out;
-    --transition-secondary: 0.5s ease-in-out;
+    --transition-secondary: 0.5s ease-in-out; */
+
+
 }
