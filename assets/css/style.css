@@ -61,6 +61,7 @@ h1 {
 h2 {
     text-align: left;
     font-family: var(--font-family-code);
+    font-weight: lighter;
     font-size: 2.2rem;
     color: var(--color-font-balise);
 
@@ -75,7 +76,7 @@ h3 {
     text-align: left;
     font-family: var(--font-family-code);
     font-weight: lighter;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: var(--color-font-light);
 }
 
