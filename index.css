@@ -20,8 +20,13 @@
         gap: 2rem;
         
         p {
-            text-align: left;
-            font-size: 1.5rem;
+            /* text-align: left; */
+            text-align: justify;
+            font-size: 1.4rem;
+
+            strong, em {
+                color: var(--color-font-strong);
+            }
         }
 
         .presentation_description-contact {
@@ -102,4 +107,69 @@
     }
 }
 
+/*************************************************/
+/* FORMATION
+/*************************************************/
 
+.formation {
+    margin-top: 6rem;
+    border: solid 1px var(--color-bg-separator);
+    border-radius: 10px;
+
+    .formation_title {
+        padding: 1rem 2rem;
+        background-color: var(--color-bg-dark-secondary);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    } 
+    
+    .formation_details{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        padding: 1rem 2rem;
+        border-top: solid 1px var(--color-bg-separator);
+
+        .formation-infos {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
+
+            .date {
+                min-width: 60px;
+            }
+
+            .centre {
+                font-size: 1.2rem;
+            }
+
+            .city {
+
+            }
+        }
+
+
+
+
+
+
+
+
+        .formation_details-item {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            color: var(--color-font-light);
+            font-size: 1.2rem;
+
+            img {
+                height: 2.5rem;
+            }
+        }
+    }
+}

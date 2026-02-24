@@ -11,15 +11,16 @@
     <link rel="icon" href="/assets/img/favicon.png" type="image/x-icon">
     <title>Développeur FullStack</title>
 </head>
-<body>
+<body id="home">
 <header>
     <!---------------------------------------------------------------------------->
     <!-- BANDEAU -->
     <!---------------------------------------------------------------------------->
     <section class="bandeau container">
         <div class="bandeau_title">
-            <!-- <img src="/assets/img/codage.png" alt="logo"> -->
-            &lt;<span class="balise">developpeur</span> <span class="class">class</span>=<span class="value">'full_stack'</span>/&gt;
+            &lt;<a href="#home">
+            <span class="balise">developpeur</span><span class="class">class</span>=<span class="value">'full_stack'</span>
+            </a>/&gt;
         </div>
         <nav class="bandeau_nav">
             <div class="bandeau_nav-back container">
@@ -31,10 +32,10 @@
                 </button>
             </div>
             <ul class="bandeau_nav-menu">
-                <li><a href="#"><span>&lt;</span>compétences<span>/&gt;</span></a></li>
-                <li><a href="#"><span>&lt;</span>formation<span>/&gt;</span></a></li>
-                <li><a href="#"><span>&lt;</span>expérience<span>/&gt;</span></a></li>
-                <li><a href="#"><span>&lt;</span>projets<span>/&gt;</span></a></li>
+                <li><a href="#competences"><span>&lt;</span>compétences<span>/&gt;</span></a></li>
+                <li><a href="#formation"><span>&lt;</span>formation<span>/&gt;</span></a></li>
+                <li><a href="#experience"><span>&lt;</span>expérience<span>/&gt;</span></a></li>
+                <li><a href="#projets"><span>&lt;</span>projets<span>/&gt;</span></a></li>
             </ul>
         </nav>
         <button class="bandeau_burger">
@@ -50,7 +51,16 @@
         <div class="presentation_description">
             <h1>Stéphane Le Pajolec</h1>
             <p>
-                Passionné d’informatique depuis l’adolescence, j’ai découvert les joies de la programmation au lycée (et ses heures de codage en BASIC, le journal Hebdogiciel sous le bras), à l’université avec Turbo Pascal pour l’apprentissage de l’algorithmique, puis au CNAM Paris avec le langage ADA, très formateur pour développer une grande rigueur dans l’écriture des fonctions et la gestion des données.
+                Passionné d’informatique, j’ai gardé de l'apprentissage des langages structurants (Pascal et Ada)
+                le goût d’une programmation rigoureuse, des fonctions et algorithmes lisibles et maintenables (Clean Code).
+            </p>
+            <p>
+                Pendant 18 ans, j’ai été développeur d’application et développeur <strong>Full Stack</strong> (VB6, AJAX, Oracle). 
+                Aujourd’hui, j’utilise des langages et environnements modernes tels que <em>TypeScript</em>, <em>NodeJS</em> et <em>React</em>.
+                J’ai également un attrait pour l’élaboration des structures de données et des requêtes <em>SQL</em>.
+            </p>
+            <p>
+                De mes années en tant que formateur (sciences & mathématiques), je retiens un fort intérêt pour le partage et la transmission du savoir.
             </p>
             <div class="presentation_description-contact">
                 <a href="https://www.linkedin.com/in/slepajolec/" target="_blank"><img src="/assets/img/linkedin.png" alt="LinkedIn"></a>
@@ -65,7 +75,7 @@
     <!---------------------------------------------------------------------------->
     <!-- COMPETENCES -->
     <!---------------------------------------------------------------------------->
-    <section class="competences container">
+    <section class="competences container" id="competences">
         <div class="competences_title">
             <h2><span>&lt;</span>compétences<span>/&gt;</span></h2>
         </div>
@@ -172,6 +182,101 @@
             </div>
         </div>
     </section>
+    <!---------------------------------------------------------------------------->
+    <!-- FORMATION -->
+    <!---------------------------------------------------------------------------->
+    <section class="formation container" id="formation">
+        <div class="formation_title">
+            <h2><span>&lt;</span>formation<span>/&gt;</span></h2>
+        </div>
+        <div class="formation_details">
+            <div class="formation-infos">
+                <div class="date">
+                    2023
+                </div>
+                <div class="centre">
+                    La Piscine
+                </div>
+                <div class="city">
+                    Bordeaux
+                </div>
+            </div>
+            <h3>Développeur Web & Web Mobile (Titre RNCP)</h3>                
+            <div class="formation-niveau">
+                Niveau Bac +2
+            </div>           
+        </div>
+        <div class="formation_details">
+            <div class="formation-infos">
+                <div class="date">
+                    2000
+                </div>
+                <div class="centre">
+                    C.N.A.M.
+                </div>
+                <div class="city">
+                    Paris
+                </div>
+            </div>
+            <h3>Cycle ingénieur en informatique (1ère année)</h3>                
+            <div class="formation-niveau">
+                Niveau Bac +3
+            </div>           
+        </div>
+        <div class="formation_details">
+            <div class="formation-infos">
+                <div class="date">
+                    1998
+                </div>
+                <div class="centre">
+                    INSEP
+                </div>
+                <div class="city">
+                    Île-de-France
+                </div>
+            </div>
+            <h3>Certificat de formateur de C.F.A.</h3>                
+            <div class="formation-niveau">
+                Niveau Bac +2
+            </div>           
+        </div>
+        <div class="formation_details">
+            <div class="formation-infos">
+                <div class="date">
+                    1994
+                </div>
+                <div class="centre">
+                    I.U.F.M.
+                </div>
+                <div class="city">
+                    Saint Denis
+                </div>
+            </div>
+            <h3>Année préparatoire au CAPES de Mathématiques</h3>                
+            <div class="formation-niveau">
+                Niveau Bac +4
+            </div>           
+        </div>
+        <div class="formation_details">
+            <div class="formation-infos">
+                <div class="date">
+                    1993
+                </div>
+                <div class="centre">
+                    Université Paris XIII
+                </div>
+                <div class="city">
+                    Villetaneuse
+                </div>
+            </div>
+            <h3>Licence de Mathématiques</h3>                
+            <div class="formation-niveau">
+                Niveau Bac +3
+            </div>           
+        </div>
+    </section>
+
+
 
 </main>
 <footer>

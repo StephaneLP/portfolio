@@ -75,9 +75,9 @@ h3 {
     min-width: 180px;
     text-align: left;
     font-family: var(--font-family-code);
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 1.5rem;
-    color: var(--color-font-light);
+    color: var(--color-font-title-primary);
 }
 
 button {

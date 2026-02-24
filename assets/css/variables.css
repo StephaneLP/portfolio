@@ -11,6 +11,7 @@
     /* FONT COLOR */
     --color-font-light: #F0F6FC;
     --color-font-secondary: #d5e2ee;
+    --color-font-strong: #c282ff;
     --color-font-title-primary: #acbbc9;
     --color-font-medium: #a1a9b3;    
     --color-font-link: #abc1da; 
@@ -29,7 +30,7 @@
     /* --color-shadow-secondary: #96a1ac; */
     
     /* FONT FAMILY */
-    --font-family-base: 'Poppins-Regular', Verdana, sans-serif;
+    --font-family-base: 'Poppins-Light', Verdana, sans-serif;
     --font-family-title: cursive, Verdana, sans-serif;
     --font-family-code: consolas, Verdana, sans-serif;
 
