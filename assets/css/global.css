@@ -2,41 +2,6 @@
 @import url("./fonts.css");
 
 /*************************************************/
-/* LAYOUT (STYLE GLOBAL)
-/*************************************************/
-
-body {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
-    font-family: var(--font-family-base);
-    color: var(--color-font-light);
-    background-color: var(--color-bg-dark-primary);
-}
-
-header {
-    position: sticky;
-    top: 0;
-    z-index: 99;
-    background-color: var(--color-bg-bandeau);
-    border-bottom: solid 1px var(--color-bg-separator);
-    font-family: var(--font-family-base);
-}
-
-/* main {
-    background-color: var(--color-bg-dark-primary);
-} */
-
-footer {
-    margin-top: 4rem;
-    padding: 1.5rem;
-    background-color: var(--color-bg-dark-secondary);
-    border-top: solid 1px var(--color-bg-separator);
-    font-family: var(--font-family-base);
-    font-size: 1.2rem;
-}
-
-/*************************************************/
 /* NORMALISATION
 /*************************************************/
 
@@ -88,12 +53,63 @@ button {
 }
 
 /*************************************************/
+/* LAYOUT
+/*************************************************/
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: var(--font-family-base);
+    color: var(--color-font-light);
+    background-color: var(--color-bg-dark-primary);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: var(--color-bg-bandeau);
+    border-bottom: solid 1px var(--color-bg-separator);
+    font-family: var(--font-family-base);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    margin-top: 4rem;
+    padding: 1.5rem;
+    background-color: var(--color-bg-dark-secondary);
+    border-top: solid 1px var(--color-bg-separator);
+    font-family: var(--font-family-base);
+    font-size: 1.2rem;
+}
+
+/*************************************************/
 /* COMMON
 /*************************************************/
 
 .container {
-    width: 90vw;
-    margin: 0 auto;
+    width: 90%;
+
+    /* @media screen and (max-width: 1600px) {
+        max-width: 1200px;
+    } */
+}
+
+.footer_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    img {
+        height: 3rem;
+    }
 }
 
 /*************************************************/
